@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+#navlist ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+}
+#navlist ul li:nth-child(1){
+    margin-right:150px;
+    margin-left: 15px;
+}
+#navlist ul li:nth-child(5){
+    background-color: lightskyblue;
+    font-size: 30px;
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+color:white;
+}
+#navlist ul li:nth-child(6){
+    background-color: red;
+    font-size: 30px;
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+color:white;
+}
+#navlist ul li:nth-child(7){
+    background-color: lightskyblue;
+    font-size: 30px;
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+color:white;
+}
+#navlist ul li:nth-child(8){
+    background-color: salmon;
+    font-size: 30px;
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+    color:white;
+}
+#navlist ul li:nth-child(2):hover,#navlist ul li:nth-child(3):hover,#navlist ul li:nth-child(4):hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+#navlist ul li:nth-child(5):hover{
+    color: lightskyblue;
+    background-color: white;
+}
+
+#navlist ul li:nth-child(6):hover{
+    color: red;
+    background-color: white;
+}
+#navlist ul li:nth-child(7):hover{
+    color: lightskyblue;
+    background-color: white;
+}
+#navlist ul li:nth-child(8):hover{
+    color: salmon;
+    background-color: white;
+}
+
+#navlist ul li:nth-child(1):hover{
+transform: scale(1.1);
+}
+
+.bg {
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/20fa2328-7b87-4789-a45f-22a14b89394f/d63ystt-e22432f7-ee54-4906-b23c-f3f0de5775d7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIwZmEyMzI4LTdiODctNDc4OS1hNDVmLTIyYTE0Yjg5Mzk0ZlwvZDYzeXN0dC1lMjI0MzJmNy1lZTU0LTQ5MDYtYjIzYy1mM2YwZGU1Nzc1ZDcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.b8xt99dJQc9GsQ3pBOYNnQP17w9tqmQd5R69cfnlJ_A');
+    width: 100%;
+    height: 100vh; 
+    /* Full screen height wise */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.bg span {
+    position: absolute; /* Allows to move anything anywhere. */
+    top:450px;
+    left: 530px;
+    padding: 10px 25px;
+}
+
+.bg span i {
+    display: inline;
+
+}
+ .bg span:hover i:first-child{
+    float:right;
+ }
+
+ .bg2 {
+    background: url('https://i.pinimg.com/originals/3e/86/0d/3e860d2e061e24f4309a98a3bc16028a.jpg');
+    width: 100%;
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.bg2 span {
+    position: absolute; 
+    top:450px;
+    left: 530px;
+    padding: 10px 25px;
+} 
+.bg2 span i {
+    display: inline;
+
+}
+ .bg2 span:hover i:first-child{
+    float:right;
+ } 
+
+
+
+  .bg3 {
+    background: url('background3.png');
+    width: 100%;
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.bg3 span {
+    position: absolute; 
+    top:450px;
+    left: 530px;
+    padding: 10px 25px;
+}
+
+.bg3 span i {
+    display: inline;
+
+}
+ .bg3 span:hover i:first-child{
+    float:right;
+ }
+
+ footer{
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+ }
+
+ footer i{
+     font-size: 40px;
+     color: white;
+ }
+
+ footer p{
+     font-size: 30px;
+     color:cyan;
+ }
